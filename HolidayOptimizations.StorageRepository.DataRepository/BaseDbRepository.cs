@@ -26,14 +26,7 @@ namespace HolidayOptimizations.StorageRepository.DataRepository
         /// STATIC CTOR
         /// </summary>
         static BaseDbRepository()
-        {
-            // set mappings source assemlby
-            //var assembly = Assembly.GetExecutingAssembly();
-            //DapperExtensions.DapperExtensions.SetMappingAssemblies(new List<Assembly> { assembly });
-            // custom mapping
-            //SqlMapper.AddTypeMap(typeof(EmitDateTime), DbType.DateTime);
-            //SqlMapper.AddTypeMap(typeof(EmitDateTime), DbType.DateTime2);
-            //SqlMapper.AddTypeHandler(typeof(Instant), new InstantTimeHandler());
+        {  
         }
 
         /// <summary>

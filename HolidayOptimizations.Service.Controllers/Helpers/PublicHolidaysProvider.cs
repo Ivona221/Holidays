@@ -41,7 +41,6 @@ namespace HolidayOptimizations.Service.Controllers.Helpers
                 }
                 allHolidays.AddRange(holidays);
 
-                //publicHolidaysByCountry.Add(enumValue.ToString(), holidays.Count);
             }
             _repository.InsertHolidaysAsync(holidaysToInsert);
 
