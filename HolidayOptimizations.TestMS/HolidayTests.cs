@@ -1,9 +1,6 @@
 ﻿using HolidayOptimizations.Service.Entities.Features.Holidays;
 using HolidayOptimizations.Service.Entities.Reponse;
 using HolidayOptimizations.Service.Processes;
-using HolidayOptimizations.Web.Controllers;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
