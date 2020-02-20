@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HoildayOptimizations.Integrations.Nager\HoildayOptimizations.Integrations.Nager.csproj" />
     <ProjectReference Include="..\HolidayOptimizations.Common.Helpers\HolidayOptimizations.Common.Helpers.csproj" />
     <ProjectReference Include="..\HolidayOptimizations.Service.Controllers\HolidayOptimizations.Service.Controllers.csproj" />
     <ProjectReference Include="..\HolidayOptimizations.Service.Entities\HolidayOptimizations.Service.Entities.csproj" />

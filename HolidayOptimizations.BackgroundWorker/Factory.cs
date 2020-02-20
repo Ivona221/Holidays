@@ -7,6 +7,8 @@ using Ninject.Modules;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using HoildayOptimizations.Integrations;
+using HolidayOptimizations.Common.Helpers.Api;
 
 namespace HolidayOptimizations.BackgroundWorker
 {
@@ -18,6 +20,7 @@ namespace HolidayOptimizations.BackgroundWorker
             {
                 Bind<IHolidaysRepository>().To<HolidaysRepository>();
                 Bind<IAppSettings>().To<AppSettings>();
+                Bind<INaggerClient>().To<NaggerClient>();
             }
         }
 

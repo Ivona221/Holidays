@@ -8,7 +8,7 @@ namespace HolidayOptimizations.BackgroundWorker
     {
         public JobRegistry()
         {
-            Schedule<PublicHolidaysJob>().ToRunEvery(10).Days();
+            Schedule<PublicHolidaysJob>().ToRunEvery(1).Minutes();
         }       
     }
 }
